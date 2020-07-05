@@ -1,0 +1,10 @@
+applications:
+    - name: hostedservice
+      disk_quota: 250MB
+      health-check-type: process
+      instances: 0
+      path: bin\debug\netcoreapp3.1
+      memory: 250MB
+      no-route: true
+      stack: cflinuxfs3
+    
